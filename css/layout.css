@@ -47,7 +47,6 @@ main{
         width: 240px;
     }
     .g{
-        clear: both;
         float: left;
         width: 240px;
     }
@@ -70,7 +69,6 @@ main{
     }
 
     .i{
-        clear: both;
         width: 480px;
         margin: 0px auto 10px;
         height: 80px;
