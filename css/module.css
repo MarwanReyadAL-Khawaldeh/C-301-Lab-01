@@ -1,0 +1,74 @@
+@media (min-width: 480px){
+
+    .a h1{
+
+        margin-top: 10px;
+
+    }
+
+
+    .b h1{
+
+        margin-top: 35px;
+    }
+
+
+    .c h1, .d h1 {
+        margin-top: 25px ;
+    }
+
+
+    .e h1, .f h1, .g h1, .h h1{
+        margin-top: 100px;
+    }
+
+
+    .i h1{
+        margin-top: 15px;
+    }
+    .a p, .b p, .c p, .d p, .e p, .f p, .g p, .h p, .i p {
+
+        padding-top: 10px;
+        padding-left: 10px;
+
+    }
+
+
+}
+
+
+@media (min-width: 768px){
+    .a h1{
+
+        margin-top: 20px;
+
+    }
+
+
+    .b h1{
+        margin-top: 285px;
+
+    }
+
+    .c h1, .d h1{
+        margin-top: 75px;
+    }
+
+    .e h1, .f h1, .g h1, .h h1{
+        margin-top: 100px;
+    }
+
+    .i h1{
+        margin-top: 42px;
+    }
+
+    .a p, .b p, .c p, .d p, .e p, .f p, .g p, .h p, .i p {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+}
+
+
+.center{
+    text-align: center;
+}
