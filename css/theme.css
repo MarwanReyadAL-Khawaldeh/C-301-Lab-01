@@ -1,0 +1,13 @@
+@media (min-width: 480px){
+    .a, .b, .c, .d,.e, .f, .g, .h, .i{
+        background-color: #ceb83f;
+    }
+}
+
+@media (min-width: 768px){
+
+    .a, .b, .c, .d,.e, .f, .g, .h, .i{
+        background-color: #7847c7;
+    }
+
+}

@@ -1,0 +1,154 @@
+main{
+    margin: 75px 0;
+}
+
+
+@media (max-width: 767px){
+    .a, .b, .c, .d{
+        width: 480px;
+        margin:  auto ;
+        border-right: solid rgb(0, 0, 0) 1px;
+        border-left: solid rgb(0, 0, 0) 1px;
+        border-bottom: solid rgb(0, 0, 0) 1px;
+    }
+
+    .a {
+        height: 75px;
+        border: solid rgb(0, 0, 0) 1px;
+        margin-top: 10px;
+    }
+
+    .b{
+        height: 125px;    
+    }
+
+    .c, .d {
+
+        height: 125px;
+
+    }
+
+    .e-to-h{
+        width: 480px;
+        margin: auto;
+    }
+
+    .e, .f, .g, .h{
+        height: 250px;
+    }
+
+    .e{
+        float: left;
+    }
+    .f {
+        float: right;
+    }
+    .e, .f{
+        width: 240px;
+    }
+    .g{
+        clear: both;
+        float: left;
+        width: 240px;
+    }
+    .h{
+        float: right;
+        width: 240px;
+    }
+
+    .e, .g{
+        border-right: solid rgb(0, 0, 0) 1px;
+        border-left: solid rgb(0, 0, 0) 1px;
+        border-bottom: solid rgb(0, 0, 0) 1px;
+
+    }
+
+    .f, .h{
+        border-bottom: solid rgb(0, 0, 0) 1px;
+        border-right: solid rgb(0, 0, 0) 1px;
+
+    }
+
+    .i{
+        clear: both;
+        width: 480px;
+        margin: 0px auto 10px;
+        height: 80px;
+        border-right: solid rgb(0, 0, 0) 1px;
+        border-left: solid rgb(0, 0, 0) 1px;
+        border-bottom: solid rgb(0, 0, 0) 1px;
+    }
+
+    .L-size{
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .a{
+        width: 960px;
+        height: 100px;
+        margin: 10px auto 0px;
+        border: solid 1px rgb(0, 0, 0);
+    }
+
+    .middel{
+
+        width: 960px;
+        height: 600px;
+        margin: auto;
+    }
+
+    .b{
+        width: 200px;
+        height: 600px;
+        border-left: solid rgb(0, 0, 0) 1px;
+        border-right: solid rgb(0, 0, 0) 1px;
+        border-bottom: solid rgb(0, 0, 0) 1px;
+        float: left;
+
+    }
+
+    .c, .d {
+        width: 380px;
+        height: 200px;
+        border-right: solid rgb(0, 0, 0) 1px;
+        border-bottom: solid rgb(0, 0, 0) 1px;
+    }
+
+    .c{
+
+        float: left;
+
+    }
+    .d{
+        float: right;
+    }
+
+
+
+    .e, .f, .g, .h{
+        width: 190px;
+        height: 250px;
+        border-right: solid rgb(0, 0, 0) 1px;
+        border-bottom: solid rgb(0, 0, 0) 1px;
+        float: left;
+    }
+
+
+
+    .i{
+        float: right;
+
+        width: 760px;
+        height: 150px;
+        border-right: solid rgb(0, 0, 0) 1px;
+        border-bottom: solid rgb(0, 0, 0) 1px;
+    }
+
+    .S-size{
+        display: none;
+    }
+}
+
