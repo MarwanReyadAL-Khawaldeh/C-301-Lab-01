@@ -1,13 +1,72 @@
 @media (min-width: 480px){
-    .a, .b, .c, .d,.e, .f, .g, .h, .i{
-        background-color: #ceb83f;
+    .a{
+        background-color: tomato;
+    }
+
+    .b{
+        background-color: blue;   
+    }
+
+    .c{
+        background-color: chocolate;
+    }
+    
+    .d{
+        background-color: crimson;
+    }
+
+    .e{
+        background-color: springgreen;
+    }
+    .f{
+        background-color: royalblue;
+    }
+
+    .g{
+        background-color: red;
+    }
+    .h{
+        background-color: purple;
+    }
+
+    .i{
+        background-color: palegoldenrod;
     }
 }
 
 @media (min-width: 768px){
+    .a{
+        background-color: deeppink;
+    }
 
-    .a, .b, .c, .d,.e, .f, .g, .h, .i{
-        background-color: #7847c7;
+    .b{
+        background-color: gold;
+    }
+
+    .c{
+        background-color: darkred;
+    }
+    
+    .d{
+        background-color: darkturquoise;
+    }
+
+    .e{
+        background-color: rgb(75, 199, 116);
+    }
+    .f{
+        background-color: chartreuse;
+    }
+
+    .g{
+        background-color: crimson;
+    }
+    .h{
+        background-color: darkmagenta;
+    }
+
+    .i{
+        background-color: orangered;
     }
 
 }
