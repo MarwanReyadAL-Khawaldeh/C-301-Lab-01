@@ -16,16 +16,27 @@ main{
         height: 75px;
         border: solid rgb(0, 0, 0) 1px;
         margin-top: 10px;
+        
     }
 
     .b{
-        height: 125px;    
+        height: 125px; 
+        
     }
 
     .c, .d {
 
         height: 125px;
 
+    }
+    .e-f{
+        display: grid;
+        grid-auto-flow: 1fr 1fr;
+
+    }
+    .g-h{
+        display: grid;
+        grid-auto-flow: 1fr 1fr;
     }
 
     .e-to-h{
@@ -38,21 +49,25 @@ main{
     }
 
     .e{
-        float: left;
+        grid-row: 2/2;
+
     }
     .f {
-        float: right;
+        grid-row: 2/2;
+
     }
     .e, .f{
         width: 240px;
     }
     .g{
-        float: left;
+        grid-row: 2/2;
         width: 240px;
+
     }
     .h{
-        float: right;
+        grid-row: 2/2;
         width: 240px;
+
     }
 
     .e, .g{
@@ -65,6 +80,7 @@ main{
     .f, .h{
         border-bottom: solid rgb(0, 0, 0) 1px;
         border-right: solid rgb(0, 0, 0) 1px;
+        
 
     }
 
@@ -75,6 +91,7 @@ main{
         border-right: solid rgb(0, 0, 0) 1px;
         border-left: solid rgb(0, 0, 0) 1px;
         border-bottom: solid rgb(0, 0, 0) 1px;
+
     }
 
     .L-size{
@@ -89,6 +106,7 @@ main{
         height: 100px;
         margin: 10px auto 0px;
         border: solid 1px rgb(0, 0, 0);
+
     }
 
     .middel{
@@ -106,6 +124,7 @@ main{
         border-bottom: solid rgb(0, 0, 0) 1px;
         float: left;
 
+
     }
 
     .c, .d {
@@ -115,23 +134,64 @@ main{
         border-bottom: solid rgb(0, 0, 0) 1px;
     }
 
+    .c-d{
+        display: grid;
+        grid-template: 1fr 1fr;
+    }
+
     .c{
 
-        float: left;
+        grid-row: 2/2;
+
 
     }
     .d{
-        float: right;
+        grid-row: 2/2;
+
+    }
+    .e-to-h{
+        display: grid;
+        grid-template: 1fr 1fr ;
     }
 
+    .e-f{
+        grid-row: 1/2;
+        display: grid;
+        grid-template:1fr 1fr  ;
 
+        
+    }
+    .g-h{
+        grid-row: 1/2;
+        display: grid;
+        grid-template: 1fr 1fr ;
 
+    }
     .e, .f, .g, .h{
         width: 190px;
         height: 250px;
+        /* margin-left: 200px; */
         border-right: solid rgb(0, 0, 0) 1px;
         border-bottom: solid rgb(0, 0, 0) 1px;
-        float: left;
+        /* float: left; */
+    
+    }
+
+    .e{
+        grid-row: 2/2;
+
+    }
+    .f{
+        grid-row: 2/2;
+
+    }
+    .g{
+        grid-row: 2/2;
+
+    }
+    .h{
+        grid-row: 2/2;
+
     }
 
 
@@ -143,6 +203,7 @@ main{
         height: 150px;
         border-right: solid rgb(0, 0, 0) 1px;
         border-bottom: solid rgb(0, 0, 0) 1px;
+
     }
 
     .S-size{
